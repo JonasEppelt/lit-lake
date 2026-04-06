@@ -45,7 +45,7 @@ class FastEmbedEmbeddingProvider:
 
 @dataclass
 class FastEmbedRerankProvider:
-    model_name: str = "BAAI/bge-reranker-base"
+    model_name: str = "Xenova/ms-marco-MiniLM-L-6-v2"
     name: str = "fastembed"
     version: str = "bge-reranker-base"
 
